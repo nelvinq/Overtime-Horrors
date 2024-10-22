@@ -1,0 +1,48 @@
+body{
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, sans-serif;
+    height: 1500px;
+    width: 70%;
+    font-size: 20px;
+    padding: 18px;
+    margin: 18px;
+    color: white;
+    border-radius: 4px;
+    background-color: rgb(8, 5, 22);
+}
+
+.storyText {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+    margin: 12px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    border-radius: 4px;
+    background-color: rgb(23, 48, 73);
+  }
+
+  .option{
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+    margin: 12px;
+    text-align: right;
+    color: white;
+    border-radius: 4px;
+    background-color: rgb(8, 30, 53);
+  }
+
+  .home{
+    width: 100px;
+    font-size: 15px;
+    padding: 12px;
+    margin: 12px;
+    display: flex;
+    color: white;
+    border-radius: 4px;
+    background-color: rgb(41, 50, 59);
+  }
