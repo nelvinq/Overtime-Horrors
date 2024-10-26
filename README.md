@@ -8,7 +8,7 @@ Overtime Horror is a text-based, choose-your-own-adventure game designed to imme
 The idea for Overtime Horror came from the universal experience of working late nights in an office – an environment that, when devoid of people and filled with shadows, can become unsettlingly eerie. Inspired by this sense of isolation and mystery, we wanted to explore the concept of everyday spaces turning sinister after hours. We chose a text-based format to allow for rich descriptions and an engaging, immersive experience, where each choice builds suspense and brings you closer to unraveling the secrets of the haunted workplace.
 
 # 🚀 Getting Started
-<Insert links when ready>
+https://1drv.ms/w/s!AqRcHO16-TZQhedWT5cwtkIgS4U_hA?e=YPG66G
 
 # Instructions
 1. Click on the link to play the game.
@@ -22,4 +22,7 @@ HTML - For structuring the game layout and presenting text and choices.
 CSS - To style the game interface, create atmospheric visuals, and enhance the horror theme.
 JavaScript - For the interactive elements, game logic, and tracking player choices.
 Git & GitHub - For version control and collaboration.
-Planning & Design Tools - Google Docs for story planning and Figma for any visual design aspects.
+Planning & Design Tools - Word Doc for story planning and Figma for any visual design aspects.
+
+# 📖 Story
+Story Planning - https://1drv.ms/w/s!AqRcHO16-TZQhedWT5cwtkIgS4U_hA?e=YPG66G
