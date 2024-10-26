@@ -1,6 +1,6 @@
 /*-------------------------------- Constants --------------------------------*/
 const paths = [
-    { path: 0, img: "https://picsum.photos/id/45/200/300", text: "Hello This is Path 0",
+    { path: 0, img: "https://picsum.photos/id/45/200/300", imgAlt:"Test Alt Text",text: "Hello This is Path 0",
         choice1: "choice 1 Label", choice2: "choice 2 Label",
         choice1Path: 1, choice2Path:2},
     { path: 1, img: "https://picsum.photos/id/46/200/300", text: "Hello This is Path 1",
@@ -21,7 +21,40 @@ const paths = [
     { path: 6, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
         choice1: "choice 13 Label", choice2: "choice 14 Label",
         choice1Path: 0, choice2Path:0},
-    ];
+    { path: 7, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
+        choice1: "choice 13 Label", choice2: "choice 14 Label",
+        choice1Path: 0, choice2Path:0},
+	{ path: 8, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
+		choice1: "choice 13 Label", choice2: "choice 14 Label",
+		choice1Path: 0, choice2Path:0},
+	{ path: 9, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
+		choice1: "choice 13 Label", choice2: "choice 14 Label",
+		choice1Path: 0, choice2Path:0},
+	{ path: 10, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
+		choice1: "choice 13 Label", choice2: "choice 14 Label",
+		choice1Path: 0, choice2Path:0},
+	{ path: 11, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
+		choice1: "choice 13 Label", choice2: "choice 14 Label",
+		choice1Path: 0, choice2Path:0},
+	{ path: 12, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
+		choice1: "choice 13 Label", choice2: "choice 14 Label",
+		choice1Path: 0, choice2Path:0},
+	{ path: 16, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
+		choice1: "choice 13 Label", choice2: "choice 14 Label",
+		choice1Path: 0, choice2Path:0},
+	{ path: 17, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
+		choice1: "choice 13 Label", choice2: "choice 14 Label",
+		choice1Path: 0, choice2Path:0},
+	{ path: 18, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
+		choice1: "choice 13 Label", choice2: "choice 14 Label",
+		choice1Path: 0, choice2Path:0},
+	{ path: 19, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
+		choice1: "choice 13 Label", choice2: "choice 14 Label",
+		choice1Path: 0, choice2Path:0},
+	{ path: 20, img: "https://picsum.photos/id/51/200/300", text: "Hello This is Path 6",
+		choice1: "choice 13 Label", choice2: "choice 14 Label",
+		choice1Path: 0, choice2Path:0},
+	];
 
 /*-------------------------------- Variables --------------------------------*/
 let currentPath = 0;
@@ -61,8 +94,8 @@ function render() {
     story.innerText = currentStory.text;
     optionA.innerText = currentStory.choice1;
     optionB.innerText = currentStory.choice2;
-	heroImage.setAttribute("src",currentStory.img
-	);
+	heroImage.setAttribute("src",currentStory.img, "alt", currentStory.imgAlt);
+	;
     if (currentStory.choice1Path === 0) { // When player reached an end, choice1Path = 0
         optionA.style.display = "none";
         optionB.style.display = "none";
