@@ -28,4 +28,4 @@ Overtime Horror is built using a combination of front-end and back-end technolog
 
 # 📖 Story
 Manuscript - https://1drv.ms/w/s!AqRcHO16-TZQhedWT5cwtkIgS4U_hA?e=uzUy22
-Branching - https://miro.com/welcomeonboard/NVR4aVd4eXdqcFdoNno2clcxR3V3dlR0YkxpSGV1Y01ZdjNtYnlWT1d5THZuUlRaZmlNMXlpNDlMZUxyQlBNd3wzMDc0NDU3MzU5MTM3NTkwOTUyfDI=?share_link_id=515190308876
+Branching -  https://miro.com/welcomeonboard/NVR4aVd4eXdqcFdoNno2clcxR3V3dlR0YkxpSGV1Y01ZdjNtYnlWT1d5THZuUlRaZmlNMXlpNDlMZUxyQlBNd3wzMDc0NDU3MzU5MTM3NTkwOTUyfDI=?share_link_id=515190308876
