@@ -115,7 +115,7 @@ const paths = [
     imgAlt: "An empty office hallway with a room numbered 23 at the end",
     text: "You navigated the dark hallways toward the forgotten printing room in a deserted office wing. The closer you got, the stronger the chill became, almost as if the doll warned you of something. Yet curiosity and a strange compulsion drove you forward. <br><br> The door to Room 23 was slightly ajar. <br><br> As you pushed the door open, a stale, musty smell filled the air. The room was cramped, with ancient printers and fax machines covered in dust. The overhead light flickered erratically, casting long shadows across the room. Suddenly, one of the old printers roared to life, printing a page in slow, agonizing whirs. <br><br> You watched, transfixed, as the sheet of paper slid out with a single line typed across the top: \"We are watching you.\”",
     choice1: "Examine the printed paper more closely.",
-    choice2: "Turn around and return to your desk.",
+    choice2: "Enough of this nonsense! Turn around and return to your work.",
     choice1Path: 13,
     choice2Path: 19,
   },
@@ -211,8 +211,13 @@ const optionA = document.querySelector("#a");
 const optionB = document.querySelector("#b");
 const choices = document.querySelectorAll(".option");
 const home = document.querySelector(".home");
-
+const start = document.querySelector(".start");
 /*----------------------------- Event Listeners -----------------------------*/
+
+start.addEventListener("click", () => {
+    currentPath = 0; // Move to path number corresponding to choice1Path
+    render(currentPath);
+  });
 
 optionA.addEventListener("click", () => {
   currentPath = paths[currentPath].choice1Path; // Move to path number corresponding to choice1Path
@@ -226,14 +231,26 @@ optionB.addEventListener("click", () => {
 
 home.addEventListener("click", () => {
   currentPath = 0;
-  optionA.style.display = "block";
-  optionB.style.display = "block";
-  render(currentPath);
+  intial();
 });
 /*----------------------------- Functions -----------------------------*/
 
+function intial() {
+    heroImage.setAttribute("src","https://static.wixstatic.com/media/3ec94b_158cd70537d840c9879a13b60ce26f63~mv2.png");
+    heroImage.setAttribute("alt", "late night office desk"); 
+    story.innerHTML = "Story Instructions: <br><br>The office is empty, the air thick with silence. Only the hum of the fluorescent lights and the faint clinking of pipes echo through the dimly lit halls. Your desk is cluttered with unfinished reports and stacks of files. <br><br> Tonight, you’re alone… or at least, you think you are. <br><br> As you burn the midnight oil, you will be faced with a series of choices to make, each leading to a different outcome. <br><br> So... will you survive your overtime in \"Overtime Horrors\"?"
+    home.style.display = "none";
+    start.style.display = "block";
+    optionA.style.display = "none";
+    optionB.style.display = "none";
+    window.scrollTo({ top: 0, behavior: 'smooth' }) //source: https://stackoverflow.com/questions/1144805/scroll-to-the-top-of-the-page-using-javascript/62073476
+}
+
 function render() {
   home.style.display = "none";
+  start.style.display = "none";
+  optionA.style.display = "block";
+  optionB.style.display = "block";
   const currentStory = paths[currentPath]; //figure out how to select an array item with the path instead of an index
   story.innerHTML = currentStory.text;
   optionA.innerText = currentStory.choice1;
@@ -246,7 +263,7 @@ function render() {
     optionB.style.display = "none";
     home.style.display = "block";
   }
-  window.scrollTo({ top: 0, behavior: 'smooth' }) //source: https://stackoverflow.com/questions/1144805/scroll-to-the-top-of-the-page-using-javascript/62073476
+  window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
-render();
+intial();
