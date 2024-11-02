@@ -1,6 +1,6 @@
 body{
   font-family: system-ui, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   max-width: 700px;
   padding: 15px;
   color: white;
@@ -26,7 +26,7 @@ p {
 .story {
   text-align: left;
   margin-bottom: 50px;
-  font-size: 18px;
+  font-size: 14px;
   color: white;
   border-radius: 4px;
 }
@@ -37,17 +37,18 @@ div{
 }
 
 .option{
-  font-size: 18px;
+  font-size: 14px;
   padding: 12px;
   margin: 12px;
-  text-align: right;
+  width: 250px;
+  text-align: center;
   color: white;
   border-radius: 4px;
   background-color: rgb(8, 30, 53);
 }
 
  .home{
-  font-size: 18px;
+  font-size: 16px;
   padding: 12px;
   margin: 12px;
   color: white;
