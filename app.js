@@ -201,8 +201,13 @@ const paths = [
   },
 ];
 
+const images = [
+    "https://static.wixstatic.com/media/3ec94b_e3eee504b57e4739ae5feb4994c21092~mv2.png"
+]
+
 /*-------------------------------- Variables --------------------------------*/
 let currentPath = 0;
+let inventory = [];
 
 /*------------------------ Cached Element References ------------------------*/
 const heroImage = document.querySelector("img");
@@ -267,3 +272,5 @@ function render() {
 }
 
 intial();
+
+

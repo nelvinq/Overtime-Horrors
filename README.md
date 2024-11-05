@@ -8,8 +8,7 @@ Overtime Horror is a text-based choose-your-own-adventure game designed to immer
 The idea for Overtime Horror came from the universal experience of working late nights in an office – an environment that, when devoid of people and filled with shadows, can become unsettlingly eerie. Inspired by this sense of isolation and mystery, we wanted to explore the concept of everyday spaces turning sinister after hours. We chose a text-based format to allow for rich descriptions and an engaging, immersive experience, where each choice builds suspense and brings you closer to unraveling the secrets of the haunted workplace.
 
 # 🚀 Getting Started
-
-Insert links when ready
+https://nelvinq.github.io/Overtime-Horrors/
 
 # Instructions
 1. Click on the link to play the game.
