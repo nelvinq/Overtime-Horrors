@@ -85,7 +85,16 @@ p {
   margin-right: auto;
 }
 
+.items{
+  display: flex;
+  justify-content: center;
+}
+
 .item{
+  width: 25px;
+  height: 25px;
   background-color: transparent;
-  border: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
 }

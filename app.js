@@ -45,7 +45,8 @@ const paths = [
     img: "https://static.wixstatic.com/media/3ec94b_0b28a4fffd24471e8c9664ef57b0adf0~mv2.png",
     imgAlt: "Dark corridor",
     text: "You felt like the dolls’ eyes followed you as you left the room. You closed the door behind you. <br><br> The lights started flickering in the hallway, and your ears pricked up. You could hear something moving around. Something was definitely in there. A rat? No, it's too loud for that... <br><br> Then, you saw a shadow dart across the corridor's far end. You gasped. You didn't believe in ghosts, but the idea that something was there is deeply disturbing. <br><br> It's enough to get you moving, at least.",
-    choice1: "Chase after the shadow.",choice2: "Head back to your desk and pack up to leave.",
+    choice1: "Chase after the shadow.",
+    choice2: "Head back to your desk and pack up to leave.",
     choice1Path: 9,
     choice2Path: 10,
   },
@@ -63,7 +64,7 @@ const paths = [
     path: 6,
     img: "https://static.wixstatic.com/media/3ec94b_5d32582ffb99469ab832dd5b8711c4cc~mv2.png",
     imgAlt: "Strange symbols at the back of the doll",
-    text: "You held the doll up under the dim office lights, taking a closer look at its eerie, hand-painted face. Its eyes were dull and black, giving off the unsettling feeling that they were watching you. As you turned the doll over, you noticed strange symbols carved into its back, spirals, and shapes that looked almost like letters. With each touch, you felt a chill creeping through your fingers. <br><br> Just then, a notification pinged on your computer. <br><br> The message read: \"Help us. Room 23.\" <br><br> You recognized Room 23 as the old printing room no one has used since everything went digital years ago.",
+    text: 'You held the doll up under the dim office lights, taking a closer look at its eerie, hand-painted face. Its eyes were dull and black, giving off the unsettling feeling that they were watching you. As you turned the doll over, you noticed strange symbols carved into its back, spirals, and shapes that looked almost like letters. With each touch, you felt a chill creeping through your fingers. <br><br> Just then, a notification pinged on your computer. <br><br> The message read: "Help us. Room 23." <br><br> You recognized Room 23 as the old printing room no one has used since everything went digital years ago.',
     choice1: "Head to the old printing room to investigate.",
     choice2: "Ignore the message and head to the pantry to calm yourself.",
     choice1Path: 11,
@@ -83,7 +84,7 @@ const paths = [
     path: 8,
     img: "https://static.wixstatic.com/media/3ec94b_ab77e5186c3a422faeea09c47b813310~mv2.png",
     imgAlt: "Unmoving doll standing as reader speak to it",
-    text: "You decided that it was better to talk to the doll. <br><br> After all, it just appeared on your desk in the middle of the night without any explanation or warning. Perhaps it was sent to you by a mysterious force beyond understanding, or maybe it's here to warn you about the horrors that await you. Either way, you needed to find out more. <br><br> Maybe it would talk back to you. Or perhaps you're going mad... but that would be okay, too. <br><br> If this doll didn't drive you crazy, you were sure your supervisor would. <br><br> \"Hi there,\" you said, looking into the doll's eyes. They're bright blue and piercingly cold but don't move or blink. <br><br> The doll didn't reply. Were you expecting it to? <br><br> \"What's yours?\" you asked, \"Can you tell me about yourself? About what brought you to my desk?\" <br><br> Nothing. <br><br> \"Hello... Are you okay?\" <br><br> \"No. We are not,\" a voice whispered, emanating from the doll's mouth. <br><br> You flinched. What was going on? Did it really speak? <br><br> We?",
+    text: 'You decided that it was better to talk to the doll. <br><br> After all, it just appeared on your desk in the middle of the night without any explanation or warning. Perhaps it was sent to you by a mysterious force beyond understanding, or maybe it\'s here to warn you about the horrors that await you. Either way, you needed to find out more. <br><br> Maybe it would talk back to you. Or perhaps you\'re going mad... but that would be okay, too. <br><br> If this doll didn\'t drive you crazy, you were sure your supervisor would. <br><br> "Hi there," you said, looking into the doll\'s eyes. They\'re bright blue and piercingly cold but don\'t move or blink. <br><br> The doll didn\'t reply. Were you expecting it to? <br><br> "What\'s yours?" you asked, "Can you tell me about yourself? About what brought you to my desk?" <br><br> Nothing. <br><br> "Hello... Are you okay?" <br><br> "No. We are not," a voice whispered, emanating from the doll\'s mouth. <br><br> You flinched. What was going on? Did it really speak? <br><br> We?',
     choice1: "Ask how you can help.",
     choice2: "Drop the doll and leave the office.",
     choice1Path: 18,
@@ -103,9 +104,9 @@ const paths = [
     path: 10,
     img: "https://static.wixstatic.com/media/3ec94b_4048e4242e5645ce8cda5781b8724041~mv2.png",
     imgAlt: "Silhouette of a person running through an office hallway",
-    text: "Your hands were shaking. You wanted to leave as soon as possible. <br><br> Just as you turned around, you noticed that the doll had disappeared. <br><br> A cold gust of wind rushed through the open office. The door was closed and locked, but you didn't care. You wanted out of here! You fumbled for your keys and hurried back to your desk, where you gathered your belongings as quickly as possible. <br><br> As you headed toward the exit, the hallway grew longer, and the exit sign seemed to drift further away. <br><br> A doll’s voice echoed, \"You can’t leave.\" <br><br> The lights flickered out, plunging you into darkness. <br><br> You screamed and started to run down the pitch-black hallway. You tripped on a rug and stumbled, crashing to the ground. Your belongings were scattered across the floor. <br><br> You heard something else scuttling down the hall before you – a rat or a cockroach? Something scampered over your leg in the darkness, sending chills through you.",
-    choice1: "choice 13 Label",
-    choice2: "choice 14 Label",
+    text: 'Your hands were shaking. You wanted to leave as soon as possible. <br><br> Just as you turned around, you noticed that the doll had disappeared. <br><br> A cold gust of wind rushed through the open office. The door was closed and locked, but you didn\'t care. You wanted out of here! You fumbled for your keys and hurried back to your desk, where you gathered your belongings as quickly as possible. <br><br> As you headed toward the exit, the hallway grew longer, and the exit sign seemed to drift further away. <br><br> A doll’s voice echoed, "You can’t leave." <br><br> The lights flickered out, plunging you into darkness. <br><br> You screamed and started to run down the pitch-black hallway. You tripped on a rug and stumbled, crashing to the ground. Your belongings were scattered across the floor. <br><br> You heard something else scuttling down the hall before you – a rat or a cockroach? Something scampered over your leg in the darkness, sending chills through you.',
+    choice1: "Scream for help.",
+    choice2: "Keep running, determined to leave.",
     choice1Path: 17,
     choice2Path: 16,
   },
@@ -113,7 +114,7 @@ const paths = [
     path: 11,
     img: "https://static.wixstatic.com/media/3ec94b_5261fc53af7b4370b993c9369d06212a~mv2.png",
     imgAlt: "An empty office hallway with a room numbered 23 at the end",
-    text: "You navigated the dark hallways toward the forgotten printing room in a deserted office wing. The closer you got, the stronger the chill became, almost as if the doll warned you of something. Yet curiosity and a strange compulsion drove you forward. <br><br> The door to Room 23 was slightly ajar. <br><br> As you pushed the door open, a stale, musty smell filled the air. The room was cramped, with ancient printers and fax machines covered in dust. The overhead light flickered erratically, casting long shadows across the room. Suddenly, one of the old printers roared to life, printing a page in slow, agonizing whirs. <br><br> You watched, transfixed, as the sheet of paper slid out with a single line typed across the top: \"We are watching you.\”",
+    text: 'You navigated the dark hallways toward the forgotten printing room in a deserted office wing. The closer you got, the stronger the chill became, almost as if the doll warned you of something. Yet curiosity and a strange compulsion drove you forward. <br><br> The door to Room 23 was slightly ajar. <br><br> As you pushed the door open, a stale, musty smell filled the air. The room was cramped, with ancient printers and fax machines covered in dust. The overhead light flickered erratically, casting long shadows across the room. Suddenly, one of the old printers roared to life, printing a page in slow, agonizing whirs. <br><br> You watched, transfixed, as the sheet of paper slid out with a single line typed across the top: "We are watching you.”',
     choice1: "Examine the printed paper more closely.",
     choice2: "Enough of this nonsense! Turn around and return to your work.",
     choice1Path: 13,
@@ -123,17 +124,19 @@ const paths = [
     path: 12,
     img: "https://static.wixstatic.com/media/3ec94b_29d67dd2607f4656a83b7b3feb780023~mv2.png",
     imgAlt: "An empty office pantry lit up by the creepy moonlight",
-    text: "You decided you’ve had enough ghostly nonsense for one night. Clutching the doll, you went to the pantry, hoping a cup of tea or coffee might help settle your nerves. <br><br> The pantry was empty, save for the faint hum of the refrigerator. You took a mug from the cabinet, but as you reached for the coffee pot, you heard a faint, high-pitched voice. <br><br> \"Release us.\" <br><br> Your heart raced as you spun around, but no one was there. <br><br> Did the doll just speak?",
+    text: 'You decided you’ve had enough ghostly nonsense for one night. Clutching the doll, you went to the pantry, hoping a cup of tea or coffee might help settle your nerves. <br><br> The pantry was empty, save for the faint hum of the refrigerator. You took a mug from the cabinet, but as you reached for the coffee pot, you heard a faint, high-pitched voice. <br><br> "Release us." <br><br> Your heart raced as you spun around, but no one was there. <br><br> Did the doll just speak?',
     choice1: "Talk to the doll, asking who they are.",
-    choice2: "Leave the pantry and return to your desk, abandoning your drink and the doll.",
+    choice2:
+      "Leave the pantry and return to your desk, abandoning your drink and the doll.",
     choice1Path: 14,
     choice2Path: 15,
   },
   {
     path: 13,
     img: "https://static.wixstatic.com/media/3ec94b_ad645e84f0e94858846664082be94706~mv2.png",
-    imgAlt: "A hand holding up a piece of paper with the text, We are watching you",
-    text: "You picked up the paper tremblingly, feeling the thick, worn texture under your fingertips. Below the words \"We are watching you,\" more text appears as if typed by an invisible hand: <br><br> \"We are trapped, bound to this building... by the disgruntled.\" <br><br> As you read, you heard a scraping sound behind you. Turning slowly, you saw the doll that wasn’t there before, sitting on top of a nearby printer with its head tilted as though observing you. <br><br> A faint, scratchy voice echoed, \"Will you help us, or will you join us?\"",
+    imgAlt:
+      "A hand holding up a piece of paper with the text, We are watching you",
+    text: 'You picked up the paper tremblingly, feeling the thick, worn texture under your fingertips. Below the words "We are watching you," more text appears as if typed by an invisible hand: <br><br> "We are trapped, bound to this building... by the disgruntled." <br><br> As you read, you heard a scraping sound behind you. Turning slowly, you saw the doll that wasn’t there before, sitting on top of a nearby printer with its head tilted as though observing you. <br><br> A faint, scratchy voice echoed, "Will you help us, or will you join us?"',
     choice1: "Tell the doll you want to help the trapped spirits.",
     choice2: "Drop the paper and flee out of the office.",
     choice1Path: 18,
@@ -143,7 +146,7 @@ const paths = [
     path: 14,
     img: "https://static.wixstatic.com/media/3ec94b_31c4b304e70b4595965318bb519c17af~mv2.png",
     imgAlt: "A creepy doll sitting on the pantry countertop",
-    text: "With your voice shaking, you asked, \"Who… who are you? What do you want?\" <br><br> The doll’s eyes remained fixed on you as it began to whisper. \"We were like you once, workers here, just trying to finish our shifts. Until we were bound to this place by… by the disgruntled boss, he was determined for his promotion and needed everyone to work late. He sought witchcraft to help him, but it backfired. It left us here in this form. But you—\" <br><br> The dolls' eyes glinted ominously.",
+    text: 'With your voice shaking, you asked, "Who… who are you? What do you want?" <br><br> The doll’s eyes remained fixed on you as it began to whisper. "We were like you once, workers here, just trying to finish our shifts. Until we were bound to this place by… by the disgruntled boss, he was determined for his promotion and needed everyone to work late. He sought witchcraft to help him, but it backfired. It left us here in this form. But you—" <br><br> The dolls\' eyes glinted ominously.',
     choice1: "Ask how you can help free them from the building.",
     choice2: "Slowly back away and leave the building.",
     choice1Path: 18,
@@ -152,10 +155,12 @@ const paths = [
   {
     path: 15,
     img: "https://static.wixstatic.com/media/3ec94b_1adeb35af38545bfbbccde49d9befd0e~mv2.png",
-    imgAlt: "A computer monitor showing a message Room 23 holds the answers you seek",
-    text: "Leaving the eerie pantry behind, you felt unsettled and strangely watched, as if unseen eyes were tracking your every move. The hallways felt darker, and even your cubicle had a chilling emptiness. <br><br> When you reached your desk, you noticed something strange— a typed note on your computer screen read: \"Room 23 holds the answers you seek.\" <br><br> Your instincts told you the doll may have moved there. <br><br> Maybe you should check out Room 23.",
+    imgAlt:
+      "A computer monitor showing a message Room 23 holds the answers you seek",
+    text: 'Leaving the eerie pantry behind, you felt unsettled and strangely watched, as if unseen eyes were tracking your every move. The hallways felt darker, and even your cubicle had a chilling emptiness. <br><br> When you reached your desk, you noticed something strange— a typed note on your computer screen read: "Room 23 holds the answers you seek." <br><br> Your instincts told you the doll may have moved there. <br><br> Maybe you should check out Room 23.',
     choice1: "Head to Room 23 (the old printing room).",
-    choice2: "Ignore the message and make a plan to leave the building immediately.",
+    choice2:
+      "Ignore the message and make a plan to leave the building immediately.",
     choice1Path: 11,
     choice2Path: 17,
   },
@@ -172,8 +177,9 @@ const paths = [
   {
     path: 17, //Ending 2
     img: "https://static.wixstatic.com/media/3ec94b_9f623888e00546c2bdce4e301fee543a~mv2.png",
-    imgAlt: "Silhouette of an exhausted person with a building in the background",
-    text: "You had enough! <br><br> With a shriek, you bolted for the office exit. You stumbled over yourself and the objects that blocked your path in the darkened room, but you did not slow down. You made your way through the hallway and ran through the office door as fast as your legs could carry you. <br><br> When you burst into the elevator lobby, you repeatedly slammed your finger down on the down arrow button until the door opened, and you hopped inside — the doors slowly closed behind you. <br><br> \"Come on, come on,\" you muttered to yourself. <br><br> From a distance, you noticed a shadowy figure emerging from the office you had just left. You recognized the silhouette of the creepy doll. Its eerie, lifeless eyes seemed to stare right at you. The doll reached out a hand toward the elevator, but the doors closed before it could make contact. <br><br> You broke free from the haunted office, stumbling into the cool night air… <br><br> You had escaped! <br><br> Or so you thought… <br><br> You have brought whatever evil with you. You were sure you heard the soft giggling from your backpack as you walked home that night. When you reached home, you pulled out your bag and found the creepy doll looking back at you. <br><br> You screamed. <br><br> You threw it away. <br><br> It came back. <br><br> You are cursed. <br><br> You cannot escape it. <br><br> Ending 2: Escape with a Curse(Bad Ending)",
+    imgAlt:
+      "Silhouette of an exhausted person with a building in the background",
+    text: 'You had enough! <br><br> With a shriek, you bolted for the office exit. You stumbled over yourself and the objects that blocked your path in the darkened room, but you did not slow down. You made your way through the hallway and ran through the office door as fast as your legs could carry you. <br><br> When you burst into the elevator lobby, you repeatedly slammed your finger down on the down arrow button until the door opened, and you hopped inside — the doors slowly closed behind you. <br><br> "Come on, come on," you muttered to yourself. <br><br> From a distance, you noticed a shadowy figure emerging from the office you had just left. You recognized the silhouette of the creepy doll. Its eerie, lifeless eyes seemed to stare right at you. The doll reached out a hand toward the elevator, but the doors closed before it could make contact. <br><br> You broke free from the haunted office, stumbling into the cool night air… <br><br> You had escaped! <br><br> Or so you thought… <br><br> You have brought whatever evil with you. You were sure you heard the soft giggling from your backpack as you walked home that night. When you reached home, you pulled out your bag and found the creepy doll looking back at you. <br><br> You screamed. <br><br> You threw it away. <br><br> It came back. <br><br> You are cursed. <br><br> You cannot escape it. <br><br> Ending 2: Escape with a Curse(Bad Ending)',
     choice1: "n/a",
     choice2: "n/a",
     choice1Path: 0,
@@ -183,7 +189,7 @@ const paths = [
     path: 18, //Ending 3
     img: "https://static.wixstatic.com/media/3ec94b_4df60f38ab334eb9966653058d3e13de~mv2.png",
     imgAlt: "A doll basked in blue light at rest",
-    text: "The doll's mouth didn't move as it spoke. \"We're trapped... All of us,\" it continued in an ominous whisper. \"Trapped because of him... because of him, because of him...\"  <br><br> The doll's voice faded away and then stopped entirely, leaving only an echo of its words in the silence of the empty room. <br><br> Your heart raced. <br><br> You sat there, staring at the doll, frozen in fear. Your body was cold from the winter air, but it had nothing to do with the temperature of the room. <br><br> Then suddenly, it whispered, \"Take us outside the office. The only way to break the curse.\" <br><br> Your eyes widened in horror at those words. Were you hearing things now, too? Was it possible to get this stressed and deluded from lack of sleep and coffee? <br><br> The doll spoke again, \"We are all cursed workers... like you.\" Your heartbeat increased rapidly at its words. Cursed workers... like you... <br><br> The doll turned away from you. You stood in shock as you heard the voice inside its wooden head, \"Quick before the boss will make you suffer... Like us. All of us. Take us outside the office before it’s too late!\" <br><br> You picked up the doll. There was something strange and otherworldly about this object you had just touched. <br><br> As you carried the doll outside, you felt a sense of peace. You looked back one last time, seeing the shadowy figures of former workers waving farewell before fading away. <br><br> They had finally found their freedom from overtime... unlike you. <br><br> As you walked back towards the haunted building to finish the client presentation, you thought to yourself, \"What am I doing with my life?\” <br><br> Ending 3: Breaking the Spell (Good Ending)",
+    text: 'The doll\'s mouth didn\'t move as it spoke. "We\'re trapped... All of us," it continued in an ominous whisper. "Trapped because of him... because of him, because of him..."  <br><br> The doll\'s voice faded away and then stopped entirely, leaving only an echo of its words in the silence of the empty room. <br><br> Your heart raced. <br><br> You sat there, staring at the doll, frozen in fear. Your body was cold from the winter air, but it had nothing to do with the temperature of the room. <br><br> Then suddenly, it whispered, "Take us outside the office. The only way to break the curse." <br><br> Your eyes widened in horror at those words. Were you hearing things now, too? Was it possible to get this stressed and deluded from lack of sleep and coffee? <br><br> The doll spoke again, "We are all cursed workers... like you." Your heartbeat increased rapidly at its words. Cursed workers... like you... <br><br> The doll turned away from you. You stood in shock as you heard the voice inside its wooden head, "Quick before the boss will make you suffer... Like us. All of us. Take us outside the office before it’s too late!" <br><br> You picked up the doll. There was something strange and otherworldly about this object you had just touched. <br><br> As you carried the doll outside, you felt a sense of peace. You looked back one last time, seeing the shadowy figures of former workers waving farewell before fading away. <br><br> They had finally found their freedom from overtime... unlike you. <br><br> As you walked back towards the haunted building to finish the client presentation, you thought to yourself, "What am I doing with my life?” <br><br> Ending 3: Breaking the Spell (Good Ending)',
     choice1: "n/a",
     choice2: "n/a",
     choice1Path: 0,
@@ -192,18 +198,25 @@ const paths = [
   {
     path: 19, //Ending 4
     img: "https://static.wixstatic.com/media/3ec94b_d68bcd5ba0e140e99801265daebe0acd~mv2.png",
-    imgAlt: "Silhouette of an office worker frantically at work in the darkness of the office",
+    imgAlt:
+      "Silhouette of an office worker frantically at work in the darkness of the office",
     text: "Determined to finish your work and convinced that whatever strange things happened was just part of an overactive imagination, you took a deep breath and returned to your desk. <br><br> You ignored the eerie dolls scattered around the office, the strange noises, and the flickering lights. Each time you saw a doll on a printer, a desk, or even peering out from behind a plant, you simply glanced away and refocused on your computer screen. <br><br> You put in your earbuds to drown out any whispers or creaks, focusing intently on the spreadsheet in front of you. Every so often, you caught a glimpse of movement out of the corner of your eye—a flash of porcelain or a rustling of fabric—but you forced yourself to keep typing, refusing to acknowledge it. <br><br> Hours passed, and eventually, the office began to feel ordinary again. The strange occurrences quieted, and the atmosphere lost some of its tension. As you completed the final part of your report, a feeling of relief washed over you. The dolls, though still there, seem to be simply... objects, as if they’ve lost their supernatural hold over the office. <br><br> With the work finished, you packed up and prepared to leave, casting one last glance around the room. The dolls remained still, lifeless and unmoving. You left the building, exhausted but relieved, and the eerie memories of the night seemed to fade into the background, just another late shift in an old, haunted office. <br><br> Ending 4: Enduring the Haunting (Neutral Ending)",
     choice1: "n/a",
     choice2: "n/a",
     choice1Path: 0,
     choice2Path: 0,
   },
+  {
+    path: 20,
+    img: "https://static.wixstatic.com/media/3ec94b_5261fc53af7b4370b993c9369d06212a~mv2.png",
+    imgAlt: "Test",
+    text: "Test",
+    choice1: "Go down the stairwell.",
+    choice2: "Turn around and head back to the safety of your desk. ",
+    choice1Path: 0,
+    choice2Path: 0,
+  },
 ];
-
-const images = [
-    "https://static.wixstatic.com/media/3ec94b_e3eee504b57e4739ae5feb4994c21092~mv2.png"
-]
 
 /*-------------------------------- Variables --------------------------------*/
 let currentPath = 0;
@@ -217,12 +230,14 @@ const optionB = document.querySelector("#b");
 const choices = document.querySelectorAll(".option");
 const home = document.querySelector(".home");
 const start = document.querySelector(".start");
+const item = document.querySelector(".item");
+const inventoryDisplay = document.querySelector("#inventoryDisplay");
 /*----------------------------- Event Listeners -----------------------------*/
 
 start.addEventListener("click", () => {
-    currentPath = 0; // Move to path number corresponding to choice1Path
-    render(currentPath);
-  });
+  currentPath = 0; // Move to path number corresponding to choice1Path
+  render(currentPath);
+});
 
 optionA.addEventListener("click", () => {
   currentPath = paths[currentPath].choice1Path; // Move to path number corresponding to choice1Path
@@ -238,20 +253,62 @@ home.addEventListener("click", () => {
   currentPath = 0;
   intial();
 });
+
+item.addEventListener("click", () => {
+  if (!inventory.includes(item.title)) {
+    inventory.push(item.title);
+    updateInventoryDisplay();
+  }
+});
+
 /*----------------------------- Functions -----------------------------*/
 
 function intial() {
-    heroImage.setAttribute("src","https://static.wixstatic.com/media/3ec94b_158cd70537d840c9879a13b60ce26f63~mv2.png");
-    heroImage.setAttribute("alt", "late night office desk"); 
-    story.innerHTML = "Story Instructions: <br><br>The office is empty, the air thick with silence. Only the hum of the fluorescent lights and the faint clinking of pipes echo through the dimly lit halls. Your desk is cluttered with unfinished reports and stacks of files. <br><br> Tonight, you’re alone… or at least, you think you are. <br><br> As you burn the midnight oil, you will be faced with a series of choices to make, each leading to a different outcome. <br><br> So... will you survive your overtime in \"Overtime Horrors\"?"
-    home.style.display = "none";
-    start.style.display = "block";
-    optionA.style.display = "none";
-    optionB.style.display = "none";
-    window.scrollTo({ top: 0, behavior: 'smooth' }) //source: https://stackoverflow.com/questions/1144805/scroll-to-the-top-of-the-page-using-javascript/62073476
+  inventoryDisplay.innerHTML = "";
+  inventory = [];
+  heroImage.setAttribute(
+    "src",
+    "https://static.wixstatic.com/media/3ec94b_158cd70537d840c9879a13b60ce26f63~mv2.png"
+  );
+  heroImage.setAttribute("alt", "late night office desk");
+  story.innerHTML =
+    'Story Instructions: <br><br>The office is empty, the air thick with silence. Only the hum of the fluorescent lights and the faint clinking of pipes echo through the dimly lit halls. Your desk is cluttered with unfinished reports and stacks of files. <br><br> Tonight, you’re alone… or at least, you think you are. <br><br> As you burn the midnight oil, you will be faced with a series of choices to make, each leading to a different outcome. <br><br> So... will you survive your overtime in "Overtime Horrors"?';
+  home.style.display = "none";
+  start.style.display = "block";
+  optionA.style.display = "none";
+  optionB.style.display = "none";
+  window.scrollTo({ top: 0, behavior: "smooth" }); //source: https://stackoverflow.com/questions/1144805/scroll-to-the-top-of-the-page-using-javascript/62073476
 }
 
+function updateItemButton() {
+  item.style.backgroundImage = "";
+  if (currentPath === 1) {
+    item.style.backgroundImage =
+      "url(https://static.wixstatic.com/media/3ec94b_e3eee504b57e4739ae5feb4994c21092~mv2.png)";
+    item.title = "Key";
+  }
+}
+
+function updateInventoryDisplay() {
+  inventory.forEach((item) => {
+    const itemElement = document.createElement("div");
+    itemElement.className = "inventory-item";
+    itemElement.textContent = item;
+    inventoryDisplay.appendChild(itemElement);
+  });
+}
+
+function conditionalPaths() {
+    if (currentPath === 9 ) {
+        const pathToUpdate = paths.find((path) => path.path === 9);
+        if (inventory.includes("Key")) {
+            pathToUpdate.choice1Path = 20;
+        } else {
+            pathToUpdate.choice1Path = 16;
+    }}};
+
 function render() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   home.style.display = "none";
   start.style.display = "none";
   optionA.style.display = "block";
@@ -268,9 +325,8 @@ function render() {
     optionB.style.display = "none";
     home.style.display = "block";
   }
-  window.scrollTo({ top: 0, behavior: 'smooth' })
+  updateItemButton();
+  conditionalPaths();
 }
 
 intial();
-
-
