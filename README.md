@@ -5,7 +5,7 @@ Welcome to Overtime Horror – a terrifying interactive experience set in the fa
 Overtime Horror is a text-based choose-your-own-adventure game designed to immerse you in a suspenseful horror experience set in a corporate office building. As you progress, you’ll encounter various strange phenomena, from flickering lights and mysterious sounds to unsettling apparitions. Each choice you make will determine the outcome, leading to multiple possible endings – will you escape, uncover a dark office secret, or fall victim to the horrors lurking in the shadows?
 
 # Background
-The idea for Overtime Horror came from the universal experience of working late nights in an office – an environment that, when devoid of people and filled with shadows, can become unsettlingly eerie. Inspired by this sense of isolation and mystery, we wanted to explore the concept of everyday spaces turning sinister after hours. We chose a text-based format to allow for rich descriptions and an engaging, immersive experience, where each choice builds suspense and brings you closer to unraveling the secrets of the haunted workplace.
+The idea for Overtime Horror came from the universal experience of working late nights in an office – an environment that, when devoid of people and filled with shadows, can become unsettlingly eerie. Inspired by this sense of isolation and mystery, I wanted to explore the concept of everyday spaces turning sinister after hours. I chose a text-based format to allow for rich descriptions and an engaging, immersive experience, where each choice builds suspense and brings you closer to unraveling the secrets of the haunted workplace.
 
 # 🚀 Getting Started
 https://nelvinq.github.io/Overtime-Horrors/
@@ -28,3 +28,8 @@ Overtime Horror is built using a combination of front-end and back-end technolog
 # 📖 Story
 Manuscript - https://1drv.ms/w/s!AqRcHO16-TZQhedWT5cwtkIgS4U_hA?e=uzUy22
 Branching -  https://miro.com/welcomeonboard/NVR4aVd4eXdqcFdoNno2clcxR3V3dlR0YkxpSGV1Y01ZdjNtYnlWT1d5THZuUlRaZmlNMXlpNDlMZUxyQlBNd3wzMDc0NDU3MzU5MTM3NTkwOTUyfDI=?share_link_id=515190308876
+
+# 🔮 Future Enhancements
+More paths and endings to be released
+Additional 3rd option to be added
+New items will be introduced to mix up the paths and endings
