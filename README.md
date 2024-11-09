@@ -20,17 +20,16 @@ Click the link to try the game: https://nelvinq.github.io/Overtime-Horrors/
 
 # 💻 Technologies Used
 Overtime Horror uses front-end and back-end coding to deliver a spooky experience.
-    HTML - This is used to structure the game layout and present text and choices.
-    CSS - To style the game interface, create atmospheric visuals, and enhance the horror theme.
-    JavaScript - For the interactive elements, game logic, and tracking player choices.
-    Git & GitHub - This is for version control and collaboration.
-    Planning & Design Tools - MS Word and Miro for story planning and mapping and Figma for visual design.
-    Images - NovalAI and CoPilot are used for image generation
+1. HTML - This is used to structure the game layout and present text and choices.
+2. CSS - To style the game interface, create atmospheric visuals, and enhance the horror theme.
+3. JavaScript - For the interactive elements, game logic, and tracking player choices.
+4. Git & GitHub - This is for version control and collaboration.
+5. Planning & Design Tools - MS Word and Miro for story planning and mapping and Figma for visual design.
+6. Images - NovalAI and CoPilot are used for image generation
 
 # 📖 Story
-Manuscript - https://1drv.ms/w/s!AqRcHO16-TZQhedWT5cwtkIgS4U_hA?e=uzUy22
-
-Branching -  https://miro.com/welcomeonboard/NVR4aVd4eXdqcFdoNno2clcxR3V3dlR0YkxpSGV1Y01ZdjNtYnlWT1d5THZuUlRaZmlNMXlpNDlMZUxyQlBNd3wzMDc0NDU3MzU5MTM3NTkwOTUyfDI=?share_link_id=515190308876
+1. Manuscript - https://1drv.ms/w/s!AqRcHO16-TZQhedWT5cwtkIgS4U_hA?e=uzUy22
+2. Branching -  https://miro.com/welcomeonboard/NVR4aVd4eXdqcFdoNno2clcxR3V3dlR0YkxpSGV1Y01ZdjNtYnlWT1d5THZuUlRaZmlNMXlpNDlMZUxyQlBNd3wzMDc0NDU3MzU5MTM3NTkwOTUyfDI=?share_link_id=515190308876
 
 # 🔮 Future Enhancements
 1. More paths and endings to be released
