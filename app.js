@@ -251,7 +251,7 @@ optionB.addEventListener("click", () => {
 
 home.addEventListener("click", () => {
   currentPath = 0;
-  intial();
+  initial();
 });
 
 item.addEventListener("click", () => {
@@ -263,7 +263,7 @@ item.addEventListener("click", () => {
 
 /*----------------------------- Functions -----------------------------*/
 
-function intial() {
+function initial() {
   inventoryDisplay.innerHTML = "";
   inventory = [];
   heroImage.setAttribute(
@@ -329,4 +329,4 @@ function render() {
   conditionalPaths();
 }
 
-intial();
+initial();
