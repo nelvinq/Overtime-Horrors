@@ -25,7 +25,7 @@ Overtime Horror uses front-end and back-end coding to deliver a spooky experienc
 3. JavaScript - For the interactive elements, game logic, and tracking player choices.
 4. Git & GitHub - This is for version control and collaboration.
 5. Planning & Design Tools - MS Word and Miro for story planning and mapping and Figma for visual design.
-6. Images - NovalAI and CoPilot are used for image generation
+6. Images - NovelAI and CoPilot are used for image generation
 
 # 📖 Story
 1. Manuscript - https://1drv.ms/w/s!AqRcHO16-TZQhedWT5cwtkIgS4U_hA?e=uzUy22
